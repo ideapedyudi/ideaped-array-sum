@@ -33,7 +33,7 @@ Use ArraySum
 ```js
 let products = [{ name: 'Laptop', price: 1000 },{ name: 'Smartphone', price: 500 },{ name: 'Headphones', price: 150 }
 ];
-let totalItems = ArraySum(cart, 'quantity')
+let totalPrice = ArraySum(products, 'price')
 // 10
 ```
 
