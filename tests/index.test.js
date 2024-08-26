@@ -1,8 +1,9 @@
 import ideapedArraySum from "..";
 
 test('Cart Example', () => {
-    let cart = [{ name: 'Jeans', quantity: 1 }, { name: 'Socks', quantity: 3 }, { name: 'T-Shirt', quantity: 6 }];
-    let totalItems = ideapedArraySum(cart, 'quantity');
-    console.table({ totalItems })
-    expect(totalItems).toEqual(10);
+    let products = [{ name: 'Laptop', price: 1000 }, { name: 'Smartphone', price: 500 }, { name: 'Headphones', price: 150 }
+    ];
+    let totalPrice = ideapedArraySum(products, 'price')
+    console.table({ totalPrice })
+    expect(totalPrice).toEqual(1650);
 });
