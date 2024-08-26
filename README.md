@@ -34,7 +34,7 @@ Use ArraySum
 let products = [{ name: 'Laptop', price: 1000 },{ name: 'Smartphone', price: 500 },{ name: 'Headphones', price: 150 }
 ];
 let totalPrice = ArraySum(products, 'price')
-// 10
+// 1650
 ```
 
 ## Contributing
